@@ -1,14 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter } from
+import Navbar from './components/Navbar';
 
 
-  function App() {
-    return (
-      <div className="App">
 
-      </div>
-    );
-  }
+
+
+function App() {
+  return (
+    <>
+    <Navbar/>
+    </>
+  );
+}
 
 export default App;
